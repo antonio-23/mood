@@ -39,8 +39,6 @@ const getEntries = async () => {
     },
   })
 
-
-
   return entries
 }
 

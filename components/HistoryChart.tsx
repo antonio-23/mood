@@ -16,9 +16,11 @@ const chartConfig = {
 } satisfies ChartConfig
 
 const HistoryChart = ({ data }) => {
-  console.log(data)
   return (
-    <ChartContainer config={chartConfig}>
+    <ChartContainer
+      config={chartConfig}
+      className="aspect-auto h-[550px] w-full"
+    >
       <LineChart
         accessibilityLayer
         data={data}
